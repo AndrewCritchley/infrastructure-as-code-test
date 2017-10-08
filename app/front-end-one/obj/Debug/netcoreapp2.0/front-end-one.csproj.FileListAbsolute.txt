@@ -1,0 +1,10 @@
+D:\github\infrastructure-as-code-test\app\front-end-one\bin\Debug\netcoreapp2.0\front-end-one.deps.json
+D:\github\infrastructure-as-code-test\app\front-end-one\bin\Debug\netcoreapp2.0\front-end-one.runtimeconfig.json
+D:\github\infrastructure-as-code-test\app\front-end-one\bin\Debug\netcoreapp2.0\front-end-one.runtimeconfig.dev.json
+D:\github\infrastructure-as-code-test\app\front-end-one\bin\Debug\netcoreapp2.0\front-end-one.dll
+D:\github\infrastructure-as-code-test\app\front-end-one\bin\Debug\netcoreapp2.0\front-end-one.pdb
+D:\github\infrastructure-as-code-test\app\front-end-one\obj\Debug\netcoreapp2.0\front-end-one.csproj.CoreCompileInputs.cache
+D:\github\infrastructure-as-code-test\app\front-end-one\obj\Debug\netcoreapp2.0\front-end-one.AssemblyInfoInputs.cache
+D:\github\infrastructure-as-code-test\app\front-end-one\obj\Debug\netcoreapp2.0\front-end-one.AssemblyInfo.cs
+D:\github\infrastructure-as-code-test\app\front-end-one\obj\Debug\netcoreapp2.0\front-end-one.dll
+D:\github\infrastructure-as-code-test\app\front-end-one\obj\Debug\netcoreapp2.0\front-end-one.pdb

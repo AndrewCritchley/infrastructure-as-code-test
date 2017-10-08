@@ -25,20 +25,10 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "install-puppet.sh"
-        },
-        {
-            "type": "shell-local",
-            "script": "install-puppet-modules.sh"
-        },
-        {
-            "type": "puppet-masterless",
-            "manifest_file": "manifest.pp",
-            "module_paths": ["modules"]
-        },
-        {
-            "type": "shell",
-            "script": "uninstall-puppet.sh"
+            "script": "install-docker.sh"
         }
+    ],
+    "post-processors": [
+        "compress"
     ]
 }

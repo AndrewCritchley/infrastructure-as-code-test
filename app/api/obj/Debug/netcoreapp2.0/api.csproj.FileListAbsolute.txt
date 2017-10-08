@@ -1,0 +1,10 @@
+D:\github\infrastructure-as-code-test\app\api\bin\Debug\netcoreapp2.0\api.deps.json
+D:\github\infrastructure-as-code-test\app\api\bin\Debug\netcoreapp2.0\api.runtimeconfig.json
+D:\github\infrastructure-as-code-test\app\api\bin\Debug\netcoreapp2.0\api.runtimeconfig.dev.json
+D:\github\infrastructure-as-code-test\app\api\bin\Debug\netcoreapp2.0\api.dll
+D:\github\infrastructure-as-code-test\app\api\bin\Debug\netcoreapp2.0\api.pdb
+D:\github\infrastructure-as-code-test\app\api\obj\Debug\netcoreapp2.0\api.csproj.CoreCompileInputs.cache
+D:\github\infrastructure-as-code-test\app\api\obj\Debug\netcoreapp2.0\api.AssemblyInfoInputs.cache
+D:\github\infrastructure-as-code-test\app\api\obj\Debug\netcoreapp2.0\api.AssemblyInfo.cs
+D:\github\infrastructure-as-code-test\app\api\obj\Debug\netcoreapp2.0\api.dll
+D:\github\infrastructure-as-code-test\app\api\obj\Debug\netcoreapp2.0\api.pdb
