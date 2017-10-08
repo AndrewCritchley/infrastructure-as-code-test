@@ -1,0 +1,40 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "region": "us-east-2",
+            "source_ami": "ami-10547475",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu",
+            "ami_name": "Middle-Teir-{{isotime | clean_ami_name}}",
+            "ami_description": "My First AMI",
+            "access_key": "{{user `aws_access_key`}}",
+            "secret_key": "{{user `aws_secret_key`}}",
+            "tags": {
+                "role": "middleTier"
+            },
+            "run_tags": {
+                "role": "packerBuildSystem"
+            }
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "install-puppet.sh"
+        },
+        {
+            "type": "shell-local",
+            "script": "install-puppet-modules.sh"
+        },
+        {
+            "type": "puppet-masterless",
+            "manifest_file": "manifest.pp",
+            "module_paths": ["modules"]
+        },
+        {
+            "type": "shell",
+            "script": "uninstall-puppet.sh"
+        }
+    ]
+}
