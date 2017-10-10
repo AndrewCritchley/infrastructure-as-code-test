@@ -1,0 +1,31 @@
+{
+    "variables": {
+        "aws_region": "set_me",
+        "source_ami": "set_me"
+    },
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "region": "{{user `aws_region`}}",
+            "source_ami": "{{user `source_ami`}}",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu",
+            "ami_name": "EventStore-node-{{isotime | clean_ami_name}}",
+            "ami_description": "A single node for eventstore (non-clustered)",
+            "access_key": "{{user `aws_access_key`}}",
+            "secret_key": "{{user `aws_secret_key`}}",
+            "tags": {
+                "role": "persistence"
+            },
+            "run_tags": {
+                "role": "eventstore"
+            }
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "install-eventstore.sh"
+        }
+    ]
+}

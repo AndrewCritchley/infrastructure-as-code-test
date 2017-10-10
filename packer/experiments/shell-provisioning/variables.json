@@ -1,0 +1,4 @@
+{
+    "aws_region": "us-east-2",
+    "source_ami": "ami-10547475"
+}
